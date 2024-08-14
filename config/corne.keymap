@@ -8,6 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
+&mt { flavor = "balanced"; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -37,25 +39,25 @@
         };
 
         cmdz {
-            bindings = <&kp LC(Z)>;
+            bindings = <&kp LG(Z)>;
             key-positions = <25 26>;
             layers = <1>;
         };
 
         cmdx {
-            bindings = <&kp LC(X)>;
+            bindings = <&kp LG(X)>;
             key-positions = <26 27>;
             layers = <1>;
         };
 
         cmdc {
-            bindings = <&kp LC(C)>;
+            bindings = <&kp LG(C)>;
             key-positions = <27 28>;
             layers = <1>;
         };
 
         cmdv {
-            bindings = <&kp LC(V)>;
+            bindings = <&kp LG(V)>;
             key-positions = <28 29>;
             layers = <1>;
         };
