@@ -90,6 +90,18 @@
             bindings = <&bt BT_NXT>;
             key-positions = <38 36 29>;
         };
+
+        desktop_left {
+            bindings = <&kp LC(LEFT_ARROW)>;
+            key-positions = <18 19 20>;
+            layers = <1>;
+        };
+
+        desktop_right {
+            bindings = <&kp LC(RIGHT_ARROW)>;
+            key-positions = <19 20 21>;
+            layers = <1>;
+        };
     };
 
     keymap {
