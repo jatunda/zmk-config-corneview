@@ -130,7 +130,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Alpha_Win {
+        AlphaWin {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -154,7 +154,7 @@
             >;
         };
 
-        Symbols_Numbers {
+        SymNum {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -169,7 +169,7 @@
             >;
         };
 
-        Nav_Adjust_Win {
+        NavAdjWin {
             bindings = <
 &none  &kp F11        &kp F12         &kp UP_ARROW  &mkp LCLK  &mkp RCLK           &arrowsUp    &kp LA(LEFT_ARROW)  &kp UP_ARROW    &kp LA(RIGHT)  &none             &kp C_VOL_UP
 &none  &kp C_AC_BACK  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp C_AC_FORWARD    &arrowsDown  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT      &kp C_PLAY_PAUSE  &kp C_VOL_DN
@@ -178,7 +178,7 @@
             >;
         };
 
-        Nav_Adjust_Mac {
+        NavAdjMac {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans              &trans  &trans         &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans              &trans  &trans         &trans  &trans
