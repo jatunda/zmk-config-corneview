@@ -115,15 +115,19 @@
         arrowsUp: arrowsUp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP>;
             label = "ARROWSUP";
+            wait-ms = <1>;
+            tap-ms = <10>;
         };
 
         arrowsDown: arrowsDown {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN>;
+            bindings = <&kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN &kp DOWN>;
             label = "ARROWSDOWN";
+            wait-ms = <1>;
+            tap-ms = <10>;
         };
     };
 
