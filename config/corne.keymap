@@ -111,6 +111,18 @@
             key-positions = <31 32 33>;
             layers = <1>;
         };
+
+        ctrla {
+            bindings = <&kp LC(A)>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        cmda {
+            bindings = <&kp LG(A)>;
+            key-positions = <13 14>;
+            layers = <1>;
+        };
     };
 
     macros {
@@ -136,7 +148,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        AlphaWin {
+        Win {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -144,10 +156,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB                &kp Q  &kp W  &kp E      &kp R           &kp T    &kp Y      &kp U  &kp I         &kp O    &kp P     &kp APOS
-&kp DELETE             &kp A  &kp S  &kp D      &kp F           &kp G    &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp ENTER
-&mt LEFT_SHIFT ESCAPE  &kp Z  &kp X  &kp C      &kp V           &kp B    &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp BACKSPACE
-                                     &kp LCTRL  &sk LEFT_SHIFT  &sl 2    &kp SPACE  &mo 3  &kp LEFT_WIN
+&kp TAB                &kp Q  &kp W  &kp E             &kp R           &kp T    &kp Y      &kp U  &kp I              &kp O    &kp P     &kp APOS
+&kp DELETE             &kp A  &kp S  &mt LEFT_SHIFT D  &kp F           &kp G    &kp H      &kp J  &mt RIGHT_SHIFT K  &kp L    &kp SEMI  &kp ENTER
+&mt LEFT_SHIFT ESCAPE  &kp Z  &kp X  &kp C             &kp V           &kp B    &kp N      &kp M  &kp COMMA          &kp DOT  &kp FSLH  &kp BACKSPACE
+                                     &kp LCTRL         &sk LEFT_SHIFT  &sl 2    &kp SPACE  &mo 3  &kp LEFT_WIN
             >;
         };
 
@@ -160,7 +172,7 @@
             >;
         };
 
-        SymNum {
+        Sym {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -175,7 +187,7 @@
             >;
         };
 
-        NavAdjWin {
+        NavWin {
             bindings = <
 &none  &kp F11   &kp F12         &kp UP_ARROW  &mkp LCLK  &mkp RCLK    &arrowsUp    &kp LC(LEFT_ARROW)  &kp UP_ARROW    &kp LC(RIGHT)  &kp C_MUTE        &kp C_VOL_UP
 &none  &mkp MB4  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB5     &arrowsDown  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT      &kp C_PLAY_PAUSE  &kp C_VOL_DN
@@ -184,7 +196,7 @@
             >;
         };
 
-        NavAdjMac {
+        NavMac {
             bindings = <
 &none  &kp F11   &kp F12         &kp UP_ARROW  &mkp LCLK  &mkp RCLK    &arrowsUp    &kp LG(LEFT_ARROW)  &kp UP_ARROW    &kp LG(RIGHT)  &kp C_MUTE        &kp C_VOL_UP
 &none  &mkp MB4  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB5     &arrowsDown  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT      &kp C_PLAY_PAUSE  &kp C_VOL_DN
