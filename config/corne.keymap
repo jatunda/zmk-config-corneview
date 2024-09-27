@@ -24,24 +24,28 @@
             bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
             layers = <0>;
+            require-prior-idle-ms = <125>;
         };
 
         ctrlx {
             bindings = <&kp LC(X)>;
             key-positions = <26 27>;
             layers = <0>;
+            require-prior-idle-ms = <125>;
         };
 
         ctrlc {
             bindings = <&kp LC(C)>;
             key-positions = <27 28>;
             layers = <0>;
+            require-prior-idle-ms = <125>;
         };
 
         ctrlv {
             bindings = <&kp LC(V)>;
             key-positions = <28 29>;
             layers = <0>;
+            require-prior-idle-ms = <125>;
         };
 
         cmdz {
@@ -60,12 +64,14 @@
             bindings = <&kp LG(C)>;
             key-positions = <27 28>;
             layers = <1>;
+            require-prior-idle-ms = <125>;
         };
 
         cmdv {
             bindings = <&kp LG(V)>;
             key-positions = <28 29>;
             layers = <1>;
+            require-prior-idle-ms = <125>;
         };
 
         toMAC {
@@ -97,34 +103,25 @@
             key-positions = <38 36 29>;
         };
 
-        desktop_left {
-            bindings = <&kp LC(LEFT_ARROW)>;
-            key-positions = <18 19 20>;
-            layers = <1>;
-        };
-
-        desktop_right {
-            bindings = <&kp LC(RIGHT_ARROW)>;
-            key-positions = <19 20 21>;
-            layers = <1>;
-        };
-
         mac_app_allwindows {
             bindings = <&kp LC(DOWN)>;
             key-positions = <31 32 33>;
             layers = <1>;
+            require-prior-idle-ms = <125>;
         };
 
         ctrla {
             bindings = <&kp LC(A)>;
             key-positions = <13 14>;
             layers = <0>;
+            require-prior-idle-ms = <125>;
         };
 
         cmda {
             bindings = <&kp LG(A)>;
             key-positions = <13 14>;
             layers = <1>;
+            require-prior-idle-ms = <125>;
         };
 
         combo_LT {
