@@ -148,6 +148,13 @@
             bindings = <&kp DQT>;
             key-positions = <10 11>;
         };
+
+        combo_nextWindowMac {
+            bindings = <&kp LG(GRAVE)>;
+            key-positions = <19 20 21>;
+            layers = <1>;
+            require-prior-idle-ms = <125>;
+        };
     };
 
     macros {
