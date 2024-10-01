@@ -184,7 +184,7 @@
 
         toSudokuEverywhere {
             bindings = <&to 9>;
-            key-positions = <30 41 39 15>;
+            key-positions = <30 41 39 16>;
             require-prior-idle-ms = <125>;
         };
     };
