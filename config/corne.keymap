@@ -14,7 +14,15 @@
     require-prior-idle-ms = <125>;
 };
 
-&sk { quick-release; };
+&sk {
+    quick-release;
+    release-after-ms = <500>;
+};
+
+&sl {
+    release-after-ms = <500>;
+    ignore-modifiers;
+};
 
 / {
     combos {
@@ -153,6 +161,30 @@
             bindings = <&kp LG(GRAVE)>;
             key-positions = <19 20 21>;
             layers = <1 4>;
+            require-prior-idle-ms = <125>;
+        };
+
+        toWin {
+            bindings = <&to 0>;
+            key-positions = <13 30 41 39>;
+            require-prior-idle-ms = <125>;
+        };
+
+        toMac {
+            bindings = <&to 1>;
+            key-positions = <30 41 39 14>;
+            require-prior-idle-ms = <125>;
+        };
+
+        toGaming {
+            bindings = <&to 8>;
+            key-positions = <30 41 39 15>;
+            require-prior-idle-ms = <125>;
+        };
+
+        toSudoku {
+            bindings = <&to 9>;
+            key-positions = <30 41 39 15>;
             require-prior-idle-ms = <125>;
         };
     };
