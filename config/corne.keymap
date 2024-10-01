@@ -164,25 +164,25 @@
             require-prior-idle-ms = <125>;
         };
 
-        toWin {
+        toWinEverywhere {
             bindings = <&to 0>;
             key-positions = <13 30 41 39>;
             require-prior-idle-ms = <125>;
         };
 
-        toMac {
+        toMacEverywhere {
             bindings = <&to 1>;
             key-positions = <30 41 39 14>;
             require-prior-idle-ms = <125>;
         };
 
-        toGaming {
+        toGamingEverywhere {
             bindings = <&to 8>;
             key-positions = <30 41 39 15>;
             require-prior-idle-ms = <125>;
         };
 
-        toSudoku {
+        toSudokuEverywhere {
             bindings = <&to 9>;
             key-positions = <30 41 39 15>;
             require-prior-idle-ms = <125>;
