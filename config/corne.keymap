@@ -225,6 +225,8 @@
 &mt LEFT_SHIFT ESCAPE  &kp Z           &kp X           &kp C             &kp V        &kp B        &kp N      &kp M        &kp COMMA          &kp DOT         &kp FSLH                 &kp BACKSPACE
                                                        &kp LCTRL         &sl 2        &sk LSHFT    &kp SPACE  &mo 3        &kp LEFT_WIN
             >;
+
+            label = "WIN";
         };
 
         Mac {
@@ -234,6 +236,8 @@
 &trans  &trans       &trans  &trans            &trans          &trans    &trans  &trans          &trans            &trans  &trans               &trans
                              &kp LEFT_COMMAND  &trans          &trans    &trans  &mo 4           &kp LEFT_CONTROL
             >;
+
+            label = "MAC";
         };
 
         Sym {
@@ -249,6 +253,8 @@
 &kp PIPE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LBKT  &kp RBKT    &kp UNDER      &kp PLUS   &kp MINUS  &kp EQUAL  &kp TILDE             &kp BSLH               &trans
                                            &trans    &trans      &trans         &trans     &trans     &trans
             >;
+
+            label = "SYM";
         };
 
         NavWin {
@@ -258,6 +264,8 @@
 &none  &kp F1    &kp F2           &kp F3        &kp F4       &kp F5       &kp F6       &kp LA(LEFT)        &kp LS(LA(LC(X)))  &kp LA(RIGHT)  &kp C_PREVIOUS    &kp C_NEXT
                                   &trans        &trans       &trans       &trans       &trans              &trans
             >;
+
+            label = "NAVWIN";
         };
 
         NavMac {
@@ -267,6 +275,8 @@
 &none  &kp F1    &kp F2           &kp F3        &kp F4       &kp F5       &kp F6       &kp LA(LEFT)        &kp LS(LA(LC(X)))  &kp LA(RIGHT)  &kp C_PREVIOUS    &kp C_NEXT
                                   &trans        &trans       &trans       &trans       &trans              &trans
             >;
+
+            label = "NAVMAC";
         };
 
         HYPER {
@@ -276,6 +286,8 @@
 &kp ESC  &kp LS(LC(LA(LG(Z))))  &kp LS(LA(LC(LG(X))))  &kp LS(LA(LC(LG(C))))  &kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(B))))    &kp LS(LA(LC(LG(N))))  &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(COMMA))))  &kp LS(LA(LC(LG(DOT))))  &kp LS(LA(LC(LG(FSLH))))  &kp BSPC
                                                        &trans                 &trans                 &trans                   &trans                 &trans                 &trans
             >;
+
+            label = "HYPER";
         };
 
         layer_6 {
@@ -303,6 +315,8 @@
 &kp LSHFT  &kp Z  &kp X  &kp C      &kp V         &kp B        &kp N      &kp M            &kp COMMA     &kp DOT  &kp FSLH  &kp BACKSPACE
                          &kp LCTRL  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &kp RIGHT_SHIFT  &kp LEFT_GUI
             >;
+
+            label = "GAMING";
         };
 
         Sudoku {
@@ -312,6 +326,8 @@
 &mt LEFT_SHIFT ESC  &kp N0     &kp N1  &kp N2  &kp N3        &kp C    &none      &none           &none         &none      &none  &kp BACKSPACE
                                        &none   &kp V         &none    &kp SPACE  &none           &none
             >;
+
+            label = "SUDOKU";
         };
     };
 
