@@ -118,20 +118,6 @@
             require-prior-idle-ms = <125>;
         };
 
-        ctrla {
-            bindings = <&kp LC(A)>;
-            key-positions = <13 14>;
-            layers = <0>;
-            require-prior-idle-ms = <125>;
-        };
-
-        cmda {
-            bindings = <&kp LG(A)>;
-            key-positions = <13 14>;
-            layers = <1>;
-            require-prior-idle-ms = <125>;
-        };
-
         combo_LT {
             bindings = <&kp LT>;
             key-positions = <31 32>;
