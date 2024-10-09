@@ -121,31 +121,36 @@
         combo_LT {
             bindings = <&kp LT>;
             key-positions = <31 32>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_GT {
             bindings = <&kp GT>;
             key-positions = <32 33>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_QMark {
             bindings = <&kp QMARK>;
             key-positions = <33 34>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_COLON {
             bindings = <&kp COLON>;
             key-positions = <22 21>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_DQT {
             bindings = <&kp DQT>;
             key-positions = <10 9>;
+            require-prior-idle-ms = <100>;
         };
 
         combo_nextWindowMac {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <19 20 21>;
+            key-positions = <7 8>;
             layers = <1 4>;
             require-prior-idle-ms = <125>;
         };
