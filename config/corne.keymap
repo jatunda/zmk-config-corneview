@@ -178,6 +178,11 @@
             key-positions = <30 41 39 16>;
             require-prior-idle-ms = <125>;
         };
+
+        hyper-right {
+            bindings = <&kp LS(LA(LC(LEFT_GUI)))>;
+            key-positions = <19 20 21 22>;
+        };
     };
 
     macros {
