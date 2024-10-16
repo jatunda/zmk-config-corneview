@@ -308,10 +308,10 @@
 
         GAME_2 {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans   &kp F12
-&trans     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans  &trans  &trans  &trans   &trans
-                           &trans  &trans  &trans    &trans  &trans  &trans
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &none   &none     &kp UP_ARROW  &none      &kp C_MUTE        &kp C_VOL_UP
+&trans     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp C_PLAY_PAUSE  &kp C_VOL_DN
+&trans     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans    &trans        &trans     &kp C_PREV        &kp C_NEXT
+                           &trans  &trans  &trans    &trans  &trans    &trans
             >;
 
             label = "GAME 2";
