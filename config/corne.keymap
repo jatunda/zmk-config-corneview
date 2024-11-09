@@ -184,14 +184,14 @@
             key-positions = <19 20 21 22>;
         };
 
-        ctrlv {
+        ctrlvAlternate {
             bindings = <&kp LC(V)>;
             key-positions = <28 15>;
             require-prior-idle-ms = <125>;
             layers = <0>;
         };
 
-        cmdv {
+        cmdvAlternate {
             bindings = <&kp LG(V)>;
             key-positions = <28 15>;
             require-prior-idle-ms = <125>;
