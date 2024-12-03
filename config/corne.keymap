@@ -197,6 +197,11 @@
             key-positions = <9 20 22>;
             require-prior-idle-ms = <125>;
         };
+
+        bt_clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <29 27 36>;
+        };
     };
 
     macros {
