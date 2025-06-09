@@ -4,10 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &mt {
     flavor = "balanced";
@@ -305,8 +306,8 @@
 
         HYPER {
             bindings = <
-&kp TAB  &kp LS(LA(LC(LG(Q))))  &kp LS(LA(LC(LG(W))))  &kp LS(LA(LC(LG(E))))  &kp LS(LA(LC(LG(R))))  &kp LA(LG(LC(LS(T))))    &kp LS(LA(LC(LG(Y))))  &kp LS(LA(LC(LG(U))))  &kp LS(LA(LC(LG(I))))      &kp LS(LA(LC(LG(O))))    &kp LS(LA(LC(LG(P))))     &kp APOS
-&kp DEL  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LS(LA(LC(LG(H))))  &kp LS(LA(LC(LG(J))))  &kp LS(LA(LC(LG(K))))      &kp LS(LA(LC(LG(L))))    &kp LS(LA(LC(LG(SEMI))))  &kp RET
+&kp TAB  &kp LS(LA(LC(LG(Q))))  &kp LS(LA(LC(LG(W))))  &kp LS(LA(LC(LG(E))))  &kp LS(LA(LC(LG(R))))  &kp LA(LG(LC(LS(T))))    &kp LS(LA(LC(LG(Y))))  &kp LG(LEFT_ARROW)     &kp LS(LA(LC(LG(I))))      &kp LG(RIGHT)            &kp LS(LA(LC(LG(P))))     &kp APOS
+&kp DEL  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LS(LA(LC(LG(H))))  &kp LS(LG(LEFT))       &kp LS(LA(LC(LG(K))))      &kp LS(LG(RIGHT))        &kp LS(LA(LC(LG(SEMI))))  &kp RET
 &kp ESC  &kp LS(LC(LA(LG(Z))))  &kp LS(LA(LC(LG(X))))  &kp LS(LA(LC(LG(C))))  &kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(B))))    &kp LS(LA(LC(LG(N))))  &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(COMMA))))  &kp LS(LA(LC(LG(DOT))))  &kp LS(LA(LC(LG(FSLH))))  &kp BSPC
                                                        &trans                 &trans                 &trans                   &trans                 &trans                 &trans
             >;
