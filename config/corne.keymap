@@ -306,10 +306,10 @@
 
         HYPER {
             bindings = <
-&kp TAB  &kp LS(LA(LC(LG(Q))))  &kp LS(LA(LC(LG(W))))  &kp LS(LA(LC(LG(E))))  &kp LS(LA(LC(LG(R))))  &kp LA(LG(LC(LS(T))))    &kp LS(LA(LC(LG(Y))))  &kp LS(LA(LC(U)))      &kp LG(LS(LA(LC(I))))      &kp LS(LC(LA(O)))        &kp LS(LA(LC(LG(P))))     &kp APOS
-&kp DEL  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))  &kp LS(LA(LC(LG(D))))  &kp LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))    &kp LS(LA(LC(LG(H))))  &kp LS(LG(LEFT))       &kp LA(X)                  &kp LS(LG(RIGHT))        &kp LS(LA(LC(LG(SEMI))))  &kp RET
-&kp ESC  &kp LS(LC(LA(LG(Z))))  &kp LS(LA(LC(LG(X))))  &kp LS(LA(LC(LG(C))))  &kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(B))))    &kp LS(LA(LC(LG(N))))  &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(COMMA))))  &kp LS(LA(LC(LG(DOT))))  &kp LS(LA(LC(LG(FSLH))))  &kp BSPC
-                                                       &trans                 &trans                 &trans                   &trans                 &trans                 &trans
+&kp TAB  &kp LS(LA(LC(LG(Q))))  &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(E))))         &kp LS(LA(LC(LG(R))))  &kp LA(LG(LC(LS(NUMBER_2))))    &kp LS(LA(LC(LG(NUMBER_3))))  &kp LS(LA(LC(LG(U))))  &kp LG(LS(LA(LC(I))))      &kp LS(LC(LA(LG(NUMBER_4))))  &kp LS(LA(LC(LG(N5))))    &kp APOS
+&kp DEL  &kp LS(LA(LC(LG(A))))  &kp LS(LA(LC(LG(S))))         &kp LS(LA(LC(LG(NUMBER_6))))  &kp LS(LA(LC(LG(F))))  &kp LS(LA(LC(LG(G))))           &kp LS(LA(LC(LG(H))))         &kp LS(LG(LEFT))       &kp LA(X)                  &kp LS(LG(RIGHT))             &kp LS(LA(LC(LG(SEMI))))  &kp RET
+&kp ESC  &kp LS(LC(LA(LG(Z))))  &kp LS(LA(LC(LG(N8))))        &kp LS(LA(LC(LG(C))))         &kp LS(LA(LC(LG(V))))  &kp LS(LA(LC(LG(B))))           &kp LS(LA(LC(LG(N9))))        &kp LS(LA(LC(LG(M))))  &kp LS(LA(LC(LG(COMMA))))  &kp LS(LA(LC(LG(DOT))))       &kp LS(LA(LC(LG(FSLH))))  &kp BSPC
+                                                              &trans                        &trans                 &trans                          &trans                        &trans                 &trans
             >;
 
             label = "HYPER";
