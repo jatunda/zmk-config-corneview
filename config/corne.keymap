@@ -32,28 +32,28 @@
         ctrlz {
             bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
-            layers = <0>;
+            layers = <0 6>;
             require-prior-idle-ms = <125>;
         };
 
         ctrlx {
             bindings = <&kp LC(X)>;
             key-positions = <26 27>;
-            layers = <0>;
+            layers = <0 6>;
             require-prior-idle-ms = <125>;
         };
 
         ctrlc {
             bindings = <&kp LC(C)>;
             key-positions = <27 28>;
-            layers = <0>;
+            layers = <0 6>;
             require-prior-idle-ms = <125>;
         };
 
         ctrlv {
             bindings = <&kp LC(V)>;
             key-positions = <28 29>;
-            layers = <0>;
+            layers = <0 6>;
             require-prior-idle-ms = <125>;
         };
 
@@ -202,6 +202,18 @@
         bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <29 27 36>;
+        };
+
+        ctrls {
+            bindings = <&kp LC(S)>;
+            key-positions = <14 15>;
+            layers = <6>;
+        };
+
+        ctrla {
+            bindings = <&kp LC(A)>;
+            key-positions = <13 14>;
+            layers = <6>;
         };
     };
 
