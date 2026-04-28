@@ -239,7 +239,7 @@
             bindings = <&kp SPACE>, <&kp UNDER>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LSFT|MOD_LALT|MOD_LGUI|MOD_RCTL|MOD_RSFT|MOD_RALT|MOD_RGUI)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
 
